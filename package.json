@@ -1,0 +1,48 @@
+{
+  "name": "boilerplate-backend",
+  "version": "1.0.0",
+  "description": "Boilerplate backend for Node.js applications",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx --watch --env-file .env src/server.ts",
+    "start": "node --env-file .env dist/src/server.js",
+    "build": "tsc --skipLibCheck --noEmitOnError false",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesselynevy/boilerplate-backend.git"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "Jesselyn Vania Angelie",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jesselynevy/boilerplate-backend/issues"
+  },
+  "homepage": "https://github.com/jesselynevy/boilerplate-backend#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@tsconfig/node22": "^22.0.5",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "eslint": "^9.39.2",
+    "eslint-plugin-perfectionist": "^5.1.0",
+    "prettier": "^3.7.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.50.1"
+  }
+}
