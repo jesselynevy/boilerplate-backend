@@ -5,7 +5,9 @@
     "rootDir": "./",
     "skipLibCheck": true,
     "noEmitOnError": false,
-    "strict": false
+    "strict": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": [
     "**/*.ts"

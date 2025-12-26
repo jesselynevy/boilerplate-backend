@@ -29,9 +29,11 @@
   },
   "homepage": "https://github.com/jesselynevy/boilerplate-backend#readme",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "mysql2": "^3.16.0",
     "sequelize": "^6.37.7",
-    "sqlite3": "^5.1.7"
+    "sequelize-typescript": "^2.1.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
@@ -41,6 +43,8 @@
     "eslint": "^9.39.2",
     "eslint-plugin-perfectionist": "^5.1.0",
     "prettier": "^3.7.4",
+    "sequelize-cli": "^6.6.3",
+    "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.50.1"
